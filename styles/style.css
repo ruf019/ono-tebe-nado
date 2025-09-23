@@ -1,25 +1,76 @@
+/*====================HEADER====================*/
+
 .header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   padding: 92px 50px 96px;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-/* TODO: доработать фоновое изображение*/
+.header__links-list {
+  display: flex;
+  gap: 29px;  
+  list-style: circle;
+}
+
+.header__list-item:first-child {
+  list-style: none;
+}
+
+.header__link {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 240px;
+  justify-self: end;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.header__address a {
+  width: fit-content;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+/*====================COVER====================*/
 .cover {
+  min-height: 757px;
   padding: 165px 50px 50px;
-  height: 100vh;
   background-image: url(../images/cover.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
+/*====================LOTS====================*/
 .lots {
   padding: 180px 24px 0 24px;
 }
 
+/*====================ABOUT====================*/
 .about {
   padding: 120px 24px 180px 24px;
 }
 
+/*====================FOOTER====================*/
 .footer {
   padding: 0 50px 82px;
 } 
