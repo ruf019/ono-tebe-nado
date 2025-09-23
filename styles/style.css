@@ -1,1 +1,25 @@
-/* место для вашего кода */
+.header {
+  padding: 92px 50px 96px;
+}
+
+/* TODO: доработать фоновое изображение*/
+.cover {
+  padding: 165px 50px 50px;
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lots {
+  padding: 180px 24px 0 24px;
+}
+
+.about {
+  padding: 120px 24px 180px 24px;
+}
+
+.footer {
+  padding: 0 50px 82px;
+} 
