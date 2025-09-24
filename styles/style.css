@@ -42,7 +42,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 33px;  
+  gap: 33px;
   list-style: circle;
 }
 
@@ -212,7 +212,7 @@
   padding-left: 40px;
 }
 
-.lots__more-link {  
+.lots__more-link {
   border-bottom: 1px solid #000;
   font-size: 20px;
   text-decoration: none;
