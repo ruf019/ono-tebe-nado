@@ -42,7 +42,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;  
+  gap: 33px;  
   list-style: circle;
 }
 
@@ -57,6 +57,10 @@
 
 .header__list-link_active {
   border-bottom: none;
+}
+
+.header__logo {
+  text-decoration: none;
 }
 
 .header__logo-image {
@@ -119,7 +123,7 @@
 .description {
   display: flex;
   align-items: center;
-  gap: 109px;
+  justify-content: space-between;
   margin-top: 106px;
   font-size: 22px;
 }
@@ -127,7 +131,7 @@
 .cover__text {
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 18.5px;
 }
 
 .cover__button {
@@ -257,11 +261,11 @@
 }
 
 .about__text-top {
-    max-width: 688px;
+  max-width: 688px;
 }
 
 .about__text-bot {
-  max-width: 693px;
+  max-width: 688px;
 }
 
 /*====================FOOTER====================*/
