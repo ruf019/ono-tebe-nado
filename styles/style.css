@@ -34,7 +34,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 94px 50px 94px;
+  padding: 94px 50px 92px;
   color: #000;
   font-weight: 400;
   font-size: 18px;
